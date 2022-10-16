@@ -3,4 +3,4 @@ Different toy projects created with Java demonstrating usage of common data-stru
 
 <h3>Postfix Calculator</h3>
 A Java package that (when ran) allows the user to enter an infix math expression, converts it into a postfix expression, calculates it, and returns the result to the user.<br>
-<strong><em>ex:</em> <br>&nbspInfix:</strong> (4*3)^2-(3*(4+2))<br><strong>&nbspPostfix:</strong> 4 3 * 2 ^ 3 4 2 + * -<br><strong>&nbspOutput:</strong> 126
+&nbsp<strong><em>ex:</em> <br>&nbspInfix:</strong> (4*3)^2-(3*(4+2))<br><strong>&nbspPostfix:</strong> 4 3 * 2 ^ 3 4 2 + * -<br><strong>&nbspOutput:</strong> 126
