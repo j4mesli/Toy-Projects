@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
