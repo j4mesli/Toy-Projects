@@ -15,7 +15,7 @@ public class MainCalculator {
                 int num2 = stack.pop();
                 switch(c) {
                 case '^':
-                	stack.push((int) Math.pow(num1, num2));
+                	stack.push((int) Math.pow(num2, num1));
                 	break;
                 case '*':
                 	stack.push(num2 * num1);
