@@ -129,7 +129,7 @@ class LinkedStack<E> implements Stack<E> {
 		return list.removeLast(); 
 	}
 }
-public class SinglyLinkedList<E> implements Cloneable {
+class SinglyLinkedList<E> implements Cloneable {
 	// properties
 	// nested class
 	private static class Node<E> {
