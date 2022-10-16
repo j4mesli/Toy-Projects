@@ -2,7 +2,7 @@ package calc;
 
 import java.util.Scanner;
 
-public class MainCalculator {
+public class Calculator {
 	public static int calculate(String s) {
         LinkedStack<Integer> stack = new LinkedStack<Integer>();
         for(int i = 0; i < s.length(); i++) {
