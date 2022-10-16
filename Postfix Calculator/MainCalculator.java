@@ -102,6 +102,13 @@ class Converter {
 		return output;
 	}
 }
+interface Stack<E> {
+	int size();
+	boolean isEmpty();
+	void push(E e);
+	E top(); 
+	E pop();
+}
 class LinkedStack<E> implements Stack<E> {
 	private SinglyLinkedList<E> list = new SinglyLinkedList<>(); // an empty list
 	public LinkedStack() { 
